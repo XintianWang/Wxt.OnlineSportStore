@@ -13,6 +13,7 @@ namespace Wxt.OnlineSportStore.WebApp
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            IocConfig.Register();
         }
     }
 }

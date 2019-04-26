@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Wxt.OnlineSportStore.Domain.Entities.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@foreach (var product in Model)
+{
+    <h2>@product.Name<br>@product.Description<br>@product.Category<br>@product.Price</h2>
+}
+
+
